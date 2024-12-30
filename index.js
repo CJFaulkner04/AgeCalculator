@@ -55,6 +55,18 @@ button.addEventListener('click', () => {
         yearOut.innerText = years;
         monthOut.innerText = months;
         dayOut.innerText = days;
+
+        //remove error
+        error.forEach(e => {
+            e.innerText = 'Invalid entry';
+            e.classList.remove('text');
+        })
+        label.forEach(p => {
+            p.classList.remove('error');
+        })
+        input.forEach(i => {
+            i.classList.remove('inputError')
+        })
     } else {
         error.forEach(e => {
             e.innerText = 'Invalid entry';
