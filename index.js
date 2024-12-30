@@ -58,7 +58,7 @@ button.addEventListener('click', () => {
 
         //remove error
         error.forEach(e => {
-            e.innerText = 'Invalid entry';
+            e.innerText = '';
             e.classList.remove('text');
         })
         label.forEach(p => {
