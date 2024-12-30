@@ -1,11 +1,11 @@
 /* font */
 @font-face {
     font-family: poppin;
-    src: url(/assets/fonts/Poppins-Bold.ttf);
+    src: url(./assets/fonts/Poppins-Bold.ttf);
 }
 @font-face {
     font-family: poppin-i;
-    src: url(/assets/fonts/Poppins-ExtraBoldItalic.ttf);
+    src: url(./assets/fonts/Poppins-ExtraBoldItalic.ttf);
 }
 
 
@@ -13,7 +13,6 @@
     padding: 0;
     margin: 0;
     font-family: poppin;
-    font-weight: bold;
 }
 body{
     display: flex;
